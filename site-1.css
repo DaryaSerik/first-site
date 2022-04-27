@@ -1,0 +1,263 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Space Mono', monospace;
+	background: #B095FF;
+	padding-top: 50px;
+}
+
+.sn-container{
+	font-size: 1em;
+	display: flex;
+	width: 1100px;
+	margin: 50px auto 0 auto;
+    justify-content: flex-end;
+}
+
+.main-body{
+	margin: 0 auto;
+	background-color: white;
+	border: 5px solid black;
+    width: 1100px;
+    height: 900px;
+}
+.header{
+	margin: 24px 40px 10px 40px;
+	
+}
+.prism{
+	font-size: 36px;
+
+}
+
+.logo-list{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.logo-list a:link, a:visited{
+	text-decoration: none;
+	color: black;
+}
+.logo-list a:hover{
+	text-decoration: underline;
+	color: #B095FF;
+	transition-duration: .5s;
+}
+
+.green-text{
+	height: 48px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #8CEB6B;
+	color: #000;
+	font-weight: 700;
+}
+
+.green-text:before{
+content: url("img/star.svg");
+width: 24px;
+height: 24px;
+margin: 8px;
+}
+
+.green-text:after{
+content: url("img/snowflake3.svg");	
+width: 24px;
+height: 24px;
+margin: 8px;
+
+}
+.main-section{
+	margin: 56px 64px 66px 64px;
+	display: flex;
+	gap: 40px;
+}
+
+.text2{
+	display: flex;
+	margin-bottom: 40px;
+}
+.text2:before{
+	content: url("img/arrow.svg");
+	width: 16px;
+	height: 16px;
+	margin-right: 16px;
+	margin-left: -2px;
+	align-self: center;
+}
+.text2 a:link, a:visited{
+	text-decoration: none;
+	color: black;
+}
+.text2 a:hover{
+	text-decoration: underline;
+}
+
+.left-section{
+	width: 60%;
+}
+.h1{
+	margin-bottom: 24px;
+	font-size: 36px;
+}
+.blocky{
+	display: flex;	
+	gap: 22px;
+	margin-top: 5px;
+}
+.heart{
+	background: url("img/heart.svg") no-repeat;
+	width: 18px;
+	height: 18px;
+}
+.connect{
+	background: url("img/connect.svg") no-repeat;
+	width: 18px;
+	height: 18px;
+}
+.text-3{
+	margin-top: 24px;
+	font-size: 14px;
+}
+
+.right-section{
+	width: 40%;
+}
+.numbers{
+	font-family: 'Rubik', sans-serif;
+	display: flex;
+	align-items: center;
+}
+.new-price{
+	font-weight: 700;
+	color: #1BDC2E;
+	font-size: 24px;
+	margin-right: 32px;
+;
+}
+.crossed-price{
+	text-decoration: line-through;
+	margin-right: 12px;
+	text-decoration-color: red;
+	
+}
+.grab-deal{
+	display: block;
+	font-weight: 700;
+	text-align: center;
+	background-color: #FFDC01;
+	border: 5px solid black;
+	margin-top: 15px;
+	font-size: 24px;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+.grabby a:link, a:visited{
+	text-decoration: none;
+}
+.grabby a:hover{
+	background-color: red;
+	color: #000;
+	transition-duration: .5s;
+}
+
+.duration{
+	font-family: 'Rubik', sans-serif;
+}
+.span-bold{
+	font-weight: 700;
+	font-size: 18px;
+}
+
+.icons{
+	display: grid;
+	grid-template-columns: 55px 55px 55px;
+	height: auto;
+	grid-template-areas: "work time lunch"
+						 "t-work t-time t-lunch";
+	gap: 55px;
+	margin-top: 41px;
+	line-height: 18px;
+	font-size: 12px;
+}
+.work{
+	grid-area: work;
+}
+
+.time{
+	grid-area: time;
+}
+.lunch{
+	grid-area: lunch;
+}
+.t-work{
+	grid-area: t-work;
+	text-align: center;	
+	font-weight: 500;
+	font-family: 'Rubik', sans-serif;
+}
+
+.t-time{
+	grid-area: t-time;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+}
+
+.t-lunch{
+	grid-area: t-lunch;
+	text-align: center;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+}
+.another-font{
+	font-family: 'Space Mono', monospace;
+
+}
+.location{
+	display: flex;
+	gap: 20px;
+	font-family: 'Rubik', sans-serif;
+}
+
+.loc-text{
+margin-top: auto;
+}
+
+.end{
+	display: flex;
+	font-family: 'Rubik', sans-serif;
+	flex-direction: column;
+	margin-top: 66px;
+}
+.hotel{
+	display: flex;
+	gap: 12px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+.rating{
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.star2{
+	background: url("img/star2.svg") no-repeat;
+	width: 18px;
+	height: 18px;
+	margin-right: 10px;
+	
+}
+.rate-text{
+	border-left: 1px solid black;
+	padding-left: 10px;
+}
